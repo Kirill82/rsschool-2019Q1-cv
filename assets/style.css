@@ -1,0 +1,83 @@
+body {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  max-width: 1024px;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(183, 208, 218);
+  text-align: center;
+}
+
+main {
+  position: relative;
+  background-color: #a8a8a8;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p{
+  margin: 10px 40px;
+}
+
+.photo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: -100px;
+}
+
+.hexagon img {
+  position: relative;
+  top: 120px;
+  left: 0;
+  width: 100%;
+}
+
+.hexagon {
+  width: 350px;
+  height: 700px;
+  margin: 10px;
+  transform: rotate(120deg);
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.hex-layer-1 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+}
+.hex-layer-2 {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-60deg);
+  overflow: hidden;
+  visibility: visible;
+}
+
+.cv {
+  position: relative;
+  top: -200px;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(183, 208, 218);
+  text-align: center;
+  top: 0;
+  margin: -10px 0px;;
+}
